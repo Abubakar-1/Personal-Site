@@ -9,15 +9,8 @@ body{
   color: black;
 }
 
-.banner{
-  /* position: none; */
-}
-.bannner img{
-   width: 50px;
- }
 .pic-circle{
   text-align: center;
-  position: relative;
 }
 .pic-circle  img{
   border-radius: 100%;
