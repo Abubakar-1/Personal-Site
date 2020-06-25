@@ -1,0 +1,179 @@
+body{
+	margin: 0;
+  background-color: white;
+  width: auto;
+  height: auto;
+}
+.name-link{
+  text-decoration: none;
+  color: black;
+}
+
+.banner{
+  /* position: none; */
+}
+.bannner img{
+   width: 50px;
+ }
+.pic-circle{
+  text-align: center;
+  position: relative;
+}
+.pic-circle  img{
+  border-radius: 100%;
+  height: 200px;
+}
+.menu{
+  background-color: blue;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  background-color: transparent;
+  border-radius: 5px;
+  font-weight: bold;
+}
+a.active{
+	background-color: lightblue;
+	color: white
+}
+.menu a:hover {
+  background-color:lightblue;
+  color: blue;
+  border-radius: 5px;
+}
+.left-menu{
+    margin: 8.5px;
+  }
+  .right-menu{
+    margin-top: 23px;
+    font-weight: bold;
+  }
+
+      /*contactchip*/
+.chip{
+	display: inline-block;
+	padding: 0 25px;
+	height: 50px;
+	font-size: 16px;
+	line-height: 50px;
+	border-radius: 25px;
+	background-color: lightblue;
+	color: black;
+  font-weight: bold;
+}
+.chip img{
+	float: left;
+	margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+         /*head*/
+.head{
+	text-align: center;
+	font-size: 90px;
+	color: blue;
+	margin-left: 15px;
+}
+
+      /*card*/
+
+body{
+	background-color: white;
+} 
+
+
+ .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.card:hover {
+  box-shadow: 0 16px 8px 0 rgba(0,0,0,0.2);
+}
+.container {
+  padding: 2px 16px;
+}
+
+
+.card {
+  background-color: lightblue;
+  width: 20%;
+  height: 520px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin: 5px;
+  position: absolute;
+  font-family: 'cabin sketch';
+  font-weight: 600
+}
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.about-head{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'cabin sketch';
+  color: blue;
+}
+.about-name{
+  font-weight: bold;
+}
+.about-intro{
+  font-size: 25px;
+  font-family: 'cabin sketch';
+  text-align: center;
+  color: blue;
+}
+/* .language-pics{
+  display: flex;
+  justify-content: space-between;
+} */
+.social-media{
+text-align: center;
+font-size: 30px;
+}
+
+.work-pics{
+  border: solid;
+  color: blue;
+  margin: 20px;
+}
+.work-head{
+border: solid;
+font-size: 75px;
+font-family: 'cabin sketch';
+color: blue;
+text-align: center;
+margin: 20px;
+}
+.work-pics img:hover {
+  box-shadow: 0 16px 8px 0 rgba(0,0,0,0.2);
+}
+.work-pics img{
+  margin: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+footer{
+  color: white;
+  width: 100%;  
+  height: 45px;
+  background-color:blue;
+  font-weight: bold;
+}
+.footer{
+  text-align: center;
+  margin: 5px;
+  padding-top: 15px;
+}
