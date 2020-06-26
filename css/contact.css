@@ -1,0 +1,61 @@
+.contact-head{
+    font-family: cabin sketch;
+    font-size: 100px;
+    padding-top: 100px;
+    text-align: center;
+    color: blue;
+}
+.contact-body{
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+.left-body{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+    
+}
+.vl {
+    /* text-align: center; */
+    transform: translate(-50%);
+    border: solid 1px;
+    height: 450px;
+    border-color: #ddd;
+    border-radius: 5px;
+    margin-right: 150px;
+    
+  }
+  .contact-card{
+    font-family: cabin sketch;
+    font-size: 40px;
+    color: transparent;
+    margin: 30px;
+    border: solid;
+    border-color: blue;
+    width: 420px;
+    text-align: center;
+    background-color: lightblue;
+    
+  }
+  .contact-card-title{
+    margin: 30px;
+    color: blue;
+    font-family: cabin sketch;
+    font-size: 40px;
+  }
+  
+  /* text inside the vertical line */
+  .vl-innertext {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 8px 10px;
+  }
+  .right-body img{
+      height: 400px;
+      width: 310px;
+      margin-right: 100px;
+  }
